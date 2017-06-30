@@ -2,11 +2,11 @@
 
 Ứng dụng chuyển đổi file đuôi mở r ộng.flac sang .mp3
 
-##Cài đặt
+## Cài đặt
 ```
 npm install
 ```
-##Hướng dẫn sử dụng
+## Hướng dẫn sử dụng
 Bước 1:
 Truyền vào đường dẫn của thư mục chứa file .flac vào flac-to-mp3/convert_runner.js:
 ```
@@ -17,7 +17,7 @@ Bước 2: Gõ lệnh trong Terminal
 ```
 node --harmony-async-await convert_runner.js
 ```
-##Cấu trúc:
+## Cấu trúc:
 1. Ứng dụng bắt đầu chạy từ `convert_runner.js`
 
     File này sẽ chạy hàm `runner()` truyền vào 2 tham số: 
@@ -48,4 +48,4 @@ node --harmony-async-await convert_runner.js
     - `renderFile` dùng để kiểm soát số lượng các file được convert cùng 1 lúc, tránh trường hợp convert
     tất cả file 
     
-    - `myConvert` sẽ nhận được tham số đầu vào là fileArrFlac`, đầu ra `fileArrMp3`
+    - `myConvert` sẽ nhận được tham số đầu vào là fileArrFlac, đầu ra `fileArrMp3`
